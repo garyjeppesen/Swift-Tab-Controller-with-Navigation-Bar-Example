@@ -16,7 +16,7 @@ class Tab2ViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = .systemBlue
         navigationController?.navigationBar.tintColor = .white
         
-        self.title = "Settings"
+        self.title = "Tab 2"
 
         let dataLabel: UILabel  = UILabel(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: view.bounds.size.height))
         dataLabel.text          = "Second View"

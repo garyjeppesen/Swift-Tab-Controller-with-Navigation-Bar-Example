@@ -15,7 +15,7 @@ class Tab3ViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = .systemBlue
         navigationController?.navigationBar.tintColor = .white
         
-        self.title = "Family"
+        self.title = "Tab 3"
 
         let dataLabel: UILabel  = UILabel(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: view.bounds.size.height))
         dataLabel.text          = "Third View"

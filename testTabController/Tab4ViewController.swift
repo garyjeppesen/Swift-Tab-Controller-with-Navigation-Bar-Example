@@ -16,7 +16,7 @@ class Tab4ViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = .systemBlue
         navigationController?.navigationBar.tintColor = .white
         
-        self.title = "Pets"
+        self.title = "Tab 4"
 
         let dataLabel: UILabel  = UILabel(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: view.bounds.size.height))
         dataLabel.text          = "Fourth View"

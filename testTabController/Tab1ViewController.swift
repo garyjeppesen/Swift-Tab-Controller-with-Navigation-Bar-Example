@@ -16,7 +16,7 @@ class Tab1ViewController: UIViewController {
         navigationController?.navigationBar.barTintColor = .systemBlue
         navigationController?.navigationBar.tintColor = .white
         
-        self.title = "Testing"
+        self.title = "Tab 1"
         
         let addButton = UIImage(systemName: "plus")
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: addButton, style: .plain, target: self, action: #selector(addActivity))
@@ -33,8 +33,7 @@ class Tab1ViewController: UIViewController {
         let vc = Tab1Part2ViewController()
         let nav = UINavigationController(rootViewController: vc)
         nav.modalPresentationStyle = .fullScreen
-        //nav.present(vc, animated: true, completion: nil)
-        //nav.pushViewController(vc, animated: false)
+        self.present(nav, animated: true, completion: nil)
     }
     
     /*
